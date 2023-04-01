@@ -18,7 +18,7 @@
 <body>
 	<div class="jumbotron">
 		<center><h1 class="display-4"> TIC TOK </h1></center>
-		<button class="btn btn-danger">RESTART</button>
+		<button class="btn btn-danger" onclick="restart()">RESTART</button>
 		
 	</div>
 	<div>
@@ -29,21 +29,21 @@
 				<p id="p1"></p>	
 			</div>
 				<div class="col-sm">
-					<table class="table-bordered">
+					<table class="table-bordered" class = "center">
 						<tr>
-							<td id="a1" onclick="check(this)">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
-							<td id="a2" onclick="check(this)">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
-							<td id="a3" onclick="check(this)">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
+							<td class="emptystr" id="a1" onclick="check(this)"></td>
+							<td class="emptystr" id="a2" onclick="check(this)"></td>
+							<td class="emptystr" id="a3" onclick="check(this)"></td>
 						</tr>
 						<tr>
-							<td id="a4" onclick="check(this)">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
-							<td id="a5" onclick="check(this)">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
-							<td id="a6" onclick="check(this)">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
+							<td id="a4" class="emptystr" onclick="check(this)"></td>
+							<td id="a5" class="emptystr" onclick="check(this)"></td>
+							<td id="a6" class="emptystr" onclick="check(this)"></td>
 						</tr>
 						<tr>
-							<td id="a7" onclick="check(this)">&nbsp&nbsp&nbsp&nbsp</td>
-							<td id="a8" onclick="check(this)">&nbsp&nbsp&nbsp&nbsp&nbsp</td>
-							<td id="a9" onclick="check(this)">&nbsp&nbsp&nbsp&nbsp&nbsp</td>
+							<td id="a7" class="emptystr" onclick="check(this)"></td>
+							<td id="a8" class="emptystr" onclick="check(this)"></td>
+							<td id="a9" class="emptystr" onclick="check(this)"></td>
 						</tr>
 					</table>
 				</div>
